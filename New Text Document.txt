@@ -1,0 +1,8 @@
+Maybe this will be better?
+/opt/vc/bin/tvservice -p
+/opt/vc/bin/tvservice -o
+Then to turn it back on, a different script runs:
+/opt/vc/bin/tvservice -p
+sudo chvt 6;sudo chvt 7
+And the script I'm using for a Screensaver does utilize feh. But feh doesn't handle the timeout and everything, just runs the slideshow. This is the script I'm executing for the screensaver:
+https://raw.githubusercontent.com/jamcnaughton/useful-linux-scripts/master/simplescreensaver/screensaverfull.sh
